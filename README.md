@@ -46,6 +46,8 @@ Closes the current server connection.
 
 Returns the list of files present in the `remote_path` directory of the server.
 
+**Parameters:**
+
 `remote_path` : _str_
     
 The directory on the server to look for files and directory.
@@ -68,9 +70,11 @@ Returns the current working directory.
 
 > ## cwd(remote_path)
 
-`remote_path`: _str_
-
 Server path to set the current working directory to.
+
+**Parameters:**
+
+`remote_path`: _str_
 
 ```bash
 >>> sftp = FTP_Lib(...)
@@ -80,6 +84,8 @@ Server path to set the current working directory to.
 > ## rename(remote_src, remote_dest)
 
 Rename a file or directory on the remote host.
+
+**Parameters:**
 
 `remote_src`: _str_
 
@@ -97,6 +103,8 @@ The remote file/directory to put it.
 > ## download(remote_file, local_dir)
 
 Download the remote file from the server to local system.
+
+**Parameters:**
 
 `remote_file` : _str_
 
@@ -116,6 +124,8 @@ The local directory where the file will be downloaded.
 
 Upload the local file to the server.
 
+**Parameters:**
+
 `local_file` : _str_
 
 Name of the local file along with the path to be uploaded.
@@ -132,6 +142,8 @@ The directory on the server where the requested file needs to be placed.
 > ## move(remote_src, remote_dest)
 
 Moves a file from one directory to another in the server.
+
+**Parameters:**
 
 `remote_src` : _str_
 
