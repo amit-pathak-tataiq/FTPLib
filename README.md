@@ -9,7 +9,7 @@ The `FTP_Lib` is built on top of `pysftp` and `ftplib` library. It provides meth
 
 `host`: _str_
     
-    The hostname of the server that needs to be connected. It can either FTP or SFTP server host.
+The hostname of the server that needs to be connected. It can either FTP or SFTP server host.
 
 `user`: _str_
 
