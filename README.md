@@ -2,6 +2,8 @@
 
 The `FTP_Lib` is built on top of `pysftp` and `ftplib` library. It provides methods to connect to the server and perform upload, download, move and other operations on the server through local machine.
 
+[Go to Examples](Examples.md)
+
 > ## class FTP_Lib(host, user, password=None, server='ftp')
 
 **Parameters:**
@@ -157,3 +159,5 @@ The new filepath with the extension where the file needs to be moved on the serv
 >>> sftp = FTP_Lib(...)
 >>> sftp.move(remote_src = 'version.txt', remote_dest = '/home/usr/version.txt')
 ```
+
+[Go to Examples](Examples.md)
