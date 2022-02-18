@@ -44,9 +44,9 @@ Closes the current server connection.
 >>> sftp.close()
 ```
 
-> ## ls(remote_path)
+> ## ls(remote_path=None)
 
-Returns the list of files present in the `remote_path` directory of the server.
+Returns the list of files and folders present in the `remote_path` directory of the server. If it is not provided then return the list of files and directories present in the current working directory.
 
 **Parameters:**
 
